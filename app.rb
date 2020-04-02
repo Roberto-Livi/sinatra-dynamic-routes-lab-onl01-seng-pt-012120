@@ -36,6 +36,10 @@ class App < Sinatra::Base
     
     if @operation == "add"
       "#{@num_1 + @num_2}"
+    elsif @operation == "add"
+      "#{@num_1 + @num_2}"
+    elsif @operation == "add"
+      "#{@num_1 + @num_2}"
     end
   end
     
